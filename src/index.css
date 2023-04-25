@@ -1,0 +1,33 @@
+/* CSS for header */
+header {
+  background-color: lightgrey;
+  padding: 15px 0;
+  position: relative;
+}
+
+/* CSS for menu bar */
+#menu-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#menu-bar li {
+  margin-right: 20px;
+}
+
+#menu-bar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Advanced hover effect */
+#menu-bar a:hover {
+  color: #555;
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+}
