@@ -46,6 +46,7 @@
   #header-name {
     position: relative;
     margin: 0;
+    margin-left: 1080px;
     text-align: center;
     padding-top: 260px; /* Add padding-top to position the name correctly */
   }
@@ -56,10 +57,46 @@
     background-color: lightgrey;
     border-radius: 10px;
     padding: 20px;
-    max-width: 50%;
+    padding-right: 150px;
+    max-width: 20%;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
+  #h-projects{
+    padding-left: 200px ;
+  }
+ 
+
+  .projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 80%; /* Adjust the max-width to control the container width */
+    padding: 20px;
+  }
+  
+  .project-box {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%; /* Adjust the width to control the project box size */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-box h3 {
+    margin-bottom: 50px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .project-box img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
   }
