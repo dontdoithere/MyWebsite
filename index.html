@@ -4,10 +4,40 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Simon Website</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <header>
+      <nav>
+          <ul id="menu-bar">
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      <h1 style="position:absolute; top: 50px; right: 200px;">Simon Diakonov</h1>
+  </header>
+  <main>
+    <section id="introduction">
+        <h2>Small Introduction</h2>
+        <p>Hello, I am Simon Diakonov, a passionate developer with experience in various programming languages and frameworks. I am always eager to learn new technologies and take on new challenges. Welcome to my portfolio website!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div>
+            <article style="width: 50%; display: inline-block; text-align: center;">
+                <h3>Project #1</h3>
+                <p>Description of Project #1 goes here. You can mention the details, technologies used, and any other relevant information.</p>
+            </article>
+            <article style="width: 50%; display: inline-block; text-align: center;">
+                <h3>Project #2</h3>
+                <p>Description of Project #2 goes here. You can mention the details, technologies used, and any other relevant information.</p>
+            </article>
+        </div>
+    </section>
+</main>
   </body>
 </html>
