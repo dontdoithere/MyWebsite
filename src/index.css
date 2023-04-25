@@ -1,33 +1,65 @@
-/* CSS for header */
-header {
-  background-color: lightgrey;
-  padding: 15px 0;
-  position: relative;
-}
-
-/* CSS for menu bar */
-#menu-bar {
-  list-style-type: none;
+ * {
   margin: 0;
   padding: 0;
-  display: flex;
-}
+  box-sizing: border-box;
+ }
+ 
+  /* CSS for header */
+  header {
+    background-color: lightgrey;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+  
 
-#menu-bar li {
-  margin-right: 20px;
-}
+  /* CSS for menu bar */
+  #menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu-bar li {
+    margin-right: 20px;
+  }
+  
+  #menu-bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Advanced hover effect */
+  #menu-bar a:hover {
+    color: #555;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-#menu-bar a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
+  #header-name {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding-top: 260px; /* Add padding-top to position the name correctly */
+  }
 
-/* Advanced hover effect */
-#menu-bar a:hover {
-  color: #555;
-  background-color: #f1f1f1;
-  padding: 5px 10px;
-  border-radius: 3px;
-  transition: background-color 0.3s, color 0.3s;
-}
+  #introduction {
+    position: relative;
+    margin: 30px auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 50%;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
