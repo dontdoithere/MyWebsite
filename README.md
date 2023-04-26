@@ -51,9 +51,9 @@ Here is a list of some of the skills and technologies that I am proficient in:
 
 I am always open to collaboration, learning opportunities, or just a friendly chat. Feel free to reach out to me!
 
-* **Email:** [your.email@example.com]
+* **Email:** seeema34l@gmail.com
 * **LinkedIn:** [your LinkedIn profile URL]
-* **GitHub:** [your GitHub profile URL]
+* **GitHub:** https://github.com/dontdoithere
 
 ---
 
