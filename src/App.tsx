@@ -1,6 +1,10 @@
 import React from 'react';
-import NameEffect from './components/NameEffect'
-import './index.css' 
+import { } from '@mui/material'
+//import { MenuIcon } from '@mui/icons-material';
+//import Button from '@material-ui/core/Button';
+import NameEffect from './components/NameEffect';
+import './index.css';
+
 
 
 
@@ -36,13 +40,13 @@ const App: React.FC = () => {
       <h2 id="h-projects">My Projects</h2>
       <div className="projects-container">
         <article className="project-box">
-          <h3 id="proj-1">Art object #1-?-</h3>
+          <h3 className="project-names">Android Application</h3>
           <img src="./pictures/first.png" alt="Project 1 Image" />
           <hr className="separator-line" />
           <p>Description of Project #1 goes here. You can mention the details, technologies used, and any other relevant information.</p>
         </article>
           <article className="project-box">
-            <h3 id="proj-2">Project #2</h3>
+            <h3 className="project-names">Arduino/Pi system</h3>
             <img src="./pictures/second-picture.png" alt="Project 2 Image" />
             <hr className="separator-line" />
             <p>Description of Project #2 goes here. You can mention the details, technologies used, and any other relevant information.</p>

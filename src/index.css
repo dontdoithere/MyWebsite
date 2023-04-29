@@ -5,8 +5,8 @@
  }
 
  @font-face {
-  font-family: 'Proj-1-font';
-  src: local('Conventionality'), url(/src/fonts/Conventionality.ttf) format('truetype');
+  font-family: 'Conventional';
+  src: url(/src/fonts/Conventionality.ttf) format('truetype');
 }
 
  
@@ -63,17 +63,25 @@
     margin-top: 30px;
     margin-left: 110px;
     margin-bottom: 150px;
-    background-color: lightgrey;
-    border-radius: 10px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1); 
+    border: 2px solid transparent;  
+    background-clip: content-box;
     padding: 40px 40px 40px 40px;
     max-width: 45%;
     max-height: 6 5%;
+    
   }
 
   #h-projects{
     padding-left: 200px ;
   }
 
+  .project-names{
+    font-family: 'Conventional';
+  }
  
 
   .projects-container {
@@ -89,7 +97,10 @@
     background-color: lightgrey;
     border-radius: 10px;
     padding: 20px;
-    width: 45%; /* Adjust the width to control the project box size */
+    width: 45%; 
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1); 
     justify-content: center;
     align-items: center;
   }
@@ -121,5 +132,5 @@
   }
   
   .project-box:hover .separator-line {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(221, 3, 3, 0), rgb(250, 245, 245), rgba(12, 208, 243, 0));
   }
