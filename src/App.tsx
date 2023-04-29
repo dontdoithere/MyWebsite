@@ -29,13 +29,15 @@ const App: React.FC = () => {
         <article className="project-box">
           <h3>Art object #1-?-</h3>
           <img src="./pictures/first.png" alt="Project 1 Image" />
+          <hr className="separator-line" />
           <p>Description of Project #1 goes here. You can mention the details, technologies used, and any other relevant information.</p>
         </article>
-        <article className="project-box">
-          <h3>Project #2</h3>
-          <img src="./pictures/second-picture.png" alt="Project 2 Image" />
-          <p>Description of Project #2 goes here. You can mention the details, technologies used, and any other relevant information.</p>
-        </article>
+          <article className="project-box">
+            <h3>Project #2</h3>
+            <img src="./pictures/second-picture.png" alt="Project 2 Image" />
+            <hr className="separator-line" />
+            <p>Description of Project #2 goes here. You can mention the details, technologies used, and any other relevant information.</p>
+          </article>
       </div>
     </section>
     }
