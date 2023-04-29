@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
  }
+
+ @font-face {
+  font-family: 'Proj-1-font';
+  src: local('Conventionality'), url(/src/fonts/Conventionality.ttf) format('truetype');
+}
+
  
   /* CSS for header */
   header {
@@ -48,22 +54,26 @@
     margin: 0;
     margin-left: 1080px;
     text-align: center;
-    padding-top: 260px; /* Add padding-top to position the name correctly */
+    padding-top: 260px; 
+    padding-bottom: 260px;
   }
 
   #introduction {
     position: relative;
-    margin: 30px auto;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-bottom: 150px;
     background-color: lightgrey;
     border-radius: 10px;
-    padding: 20px;
-    padding-right: 150px;
-    max-width: 20%;
+    padding: 40px 40px 40px 40px;
+    max-width: 45%;
+    max-height: 6 5%;
   }
 
   #h-projects{
     padding-left: 200px ;
   }
+
  
 
   .projects-container {
