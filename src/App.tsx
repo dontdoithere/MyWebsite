@@ -39,7 +39,7 @@ const App: React.FC = () => {
       <section id="projects">
       <h2 id="h-projects">My Projects</h2>
       <div className="projects-container">
-        <article className="project-box">
+        <article className="project-box  android-project">
           <h3 className="project-names">Android Application</h3>
           <img src="./pictures/first.png" alt="Project 1 Image" />
           <hr className="separator-line" />
