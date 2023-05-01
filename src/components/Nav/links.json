@@ -1,0 +1,16 @@
+{
+    "links": [
+        {
+            "label": "Introduction",
+            "href": "/introduction"
+        },
+        {
+            "label": "Projects",
+            "href": "/projects"
+        },
+        {
+            "label": "ContactMe",
+            "href": "/contactMe"
+        }
+    ]
+}

@@ -3,6 +3,7 @@ import { } from '@mui/material'
 //import { MenuIcon } from '@mui/icons-material';
 //import Button from '@material-ui/core/Button';
 import NameEffect from './components/NameEffect';
+import NavBar from './components/Nav/NavBar';
 import './index.css';
 
 
@@ -17,15 +18,7 @@ const App: React.FC = () => {
   
   return (
     <>
-      {<header>
-        { <nav>
-          <ul id="menu-bar">
-              <li><a href="#introduction">Introduction</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-          </ul>
-      </nav>}
-      </header>}
+      <NavBar />
       <h1 id="header-name">
         <NameEffect text="Simon Diakonov" />
       </h1>
