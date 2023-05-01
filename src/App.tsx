@@ -24,7 +24,7 @@ const App: React.FC = () => {
       </h1>
       {<section id="introduction">
         <h2 style={styleButn}>Small Introduction</h2>
-        <p style={styleButn}>My name is Simon Diakonov, and I am a highly skilled software and hardware engineer with a strong background in computer engineering. I graduated from Humber College's Computer Engineering Technology program in May 2023, where I gained expertise in various programming languages, tools, and operating systems!</p>
+        <p style={styleButn}>My name is Simon Diakonov and welcome to my portfolio website, and I am a highly skilled software and hardware engineer with a strong background in computer engineering. I graduated from Humber College's Computer Engineering Technology program in May 2023, where I gained expertise in various programming languages, tools, and operating systems!</p>
         <p style={styleButn}>I have experience in Android development and am comfortable working on web development projects. I am proficient in C/C++, Java, and have advanced knowledge of Linux administration and networking. I have also worked with various tools such as MS Visual Studio Code, Oracle SQL Developer, Eclipse, Vivado/Logisim, and Cisco Security.</p>
         <p style={styleButn}>Throughout my education and work experience, I have acquired skills in numerous programming languages, including JavaScript (ES5, ES6), HTML/CSS, Assembly/VHDL, and Python. I have worked with databases like MySQL, Firebase, and Oracle, and have experience in mobile development using Android Studio and JavaFX.</p>
     </section>}
@@ -47,6 +47,14 @@ const App: React.FC = () => {
       </div>
     </section>
     }
+
+    <section id="resume">
+      <h2 id="resume-h2">MyResume</h2>
+      <div className="resume-container">
+        <p>Here i highlighet all my skills and important knowledge about Software i know</p>
+        <iframe src='./pictures/Diakonov_Resume-1.pdf' width="600px" height="750px"></iframe>
+      </div>
+    </section>
     </>
   );
 };
