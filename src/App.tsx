@@ -49,9 +49,9 @@ const App: React.FC = () => {
     }
 
     <section id="resume">
+    <div className="resume-container">
       <h2 id="resume-h2">MyResume</h2>
-      <div className="resume-container">
-        <p>Here i highlighet all my skills and important knowledge about Software i know</p>
+        <p id="resume-text">Here i highlighet all my skills and important knowledge about Software i know</p>
         <iframe src='./pictures/Diakonov_Resume-1.pdf' width="600px" height="750px"></iframe>
       </div>
     </section>
