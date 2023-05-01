@@ -7,13 +7,11 @@ type Link = {
   href: string;
 };
 
-
-
 const NavBar: React.FC<{}> = () => {
   return (
     <div className={styles.menu_bar}>
       <div className={styles['logo-container']}>
-        <h3>Logo</h3>
+        <span>CodeSam</span>
       </div>
       <div className={styles['links-container']}>
         {links.map((link: Link) => {
@@ -23,6 +21,9 @@ const NavBar: React.FC<{}> = () => {
             </div>
           );
         })}
+        <div className={styles['nav-toggle']}>
+          <div className={styles['bar']}></div>
+        </div>
       </div>
     </div>
   );
