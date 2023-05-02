@@ -18,13 +18,13 @@
 
 
   #header-name {
-    position: relative;
     margin: 0;
-    margin-left: 1080px;
-    text-align: center;
     padding-top: 260px; 
     padding-bottom: 260px;
     font-family: 'Monster';
+    display: flex;
+    justify-content: right;
+    padding-right: 55px;
   }
 
   #introduction {
