@@ -19,13 +19,25 @@
 
   #header-name {
     margin: 0;
-    padding-top: 260px; 
-    padding-bottom: 260px;
     font-family: 'Monster';
     display: flex;
-    justify-content: flex-end;
-    padding-right: 55px;
+    justify-content: flex;
+    align-items:flex-end;
+    position: absolute;
+    right: 15%;
   }
+  #header-container {
+    display: flex;
+    align-items: center; /* if you want to vertically center the items */
+    padding-top: 260px; 
+    padding-bottom: 260px;
+    position: relative; 
+}
+
+#header-image{
+  position: absolute;
+  left: 5%;
+}
 
   #introduction {
     position: relative;

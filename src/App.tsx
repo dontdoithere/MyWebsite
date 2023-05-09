@@ -19,9 +19,12 @@ const App: React.FC = () => {
   return (
     <>
     {/* <NavBar /> */}  
-    <h1 id="header-name">
-        <NameEffect text=" Simon Diakonov" />
-      </h1>
+    <div id="header-container">
+        <img src="./pictures/Simon.png" alt="My icon" id="header-image" /> 
+        <h1 id="header-name">
+            <NameEffect text=" Simon Diakonov" />
+        </h1>
+    </div>
       {<section id="introduction">
         <h2 style={styleButn}>Small Introduction</h2>
         <p style={styleButn}>My name is Simon Diakonov and welcome to my portfolio website, and I am a highly skilled software and hardware engineer with a strong background in computer engineering. I graduated from Humber College's Computer Engineering Technology program in May 2023, where I gained expertise in various programming languages, tools, and operating systems!</p>
