@@ -18,9 +18,9 @@ const App: React.FC = () => {
   
   return (
     <>
-      <NavBar />
-      <h1 id="header-name">
-        <NameEffect text="Simon Diakonov" />
+    {/* <NavBar /> */}  
+    <h1 id="header-name">
+        <NameEffect text=" Simon Diakonov" />
       </h1>
       {<section id="introduction">
         <h2 style={styleButn}>Small Introduction</h2>
@@ -52,7 +52,7 @@ const App: React.FC = () => {
     <div className="resume-container">
       <h2 id="resume-h2">MyResume</h2>
         <p id="resume-text">Here i highlighet all my skills and important knowledge about Software i know</p>
-        <iframe src='./pictures/Diakonov_Resume-1.pdf' width="600px" height="750px"></iframe>
+        <iframe id="resume-pdf" src='./pictures/Diakonov_Resume-1.pdf' width="600px" height="750px"></iframe>
       </div>
     </section>
     </>

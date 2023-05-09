@@ -23,7 +23,7 @@
     padding-bottom: 260px;
     font-family: 'Monster';
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
     padding-right: 55px;
   }
 
@@ -133,3 +133,4 @@
   #resume-text{
     margin-bottom: 20px;
   }
+  
