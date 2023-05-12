@@ -20,15 +20,14 @@ const App: React.FC = () => {
     <>
     {/* <NavBar /> */}  
     <div id="header-container">
-        <img src="./pictures/Simon.png" alt="My icon" id="header-image" /> 
         <h1 id="header-name">
             <NameEffect text=" Simon Diakonov" />
         </h1>
     </div>
       {<section id="introduction">
         <h2 style={styleButn}>Small Introduction</h2>
-        <p style={styleButn}>My name is Simon Diakonov and welcome to my portfolio website, and I am a highly skilled software and hardware engineer with a strong background in computer engineering. I graduated from Humber College's Computer Engineering Technology program in May 2023, where I gained expertise in various programming languages, tools, and operating systems!</p>
-        <p style={styleButn}>I have experience in Android development and am comfortable working on web development projects. I am proficient in C/C++, Java, and have advanced knowledge of Linux administration and networking. I have also worked with various tools such as MS Visual Studio Code, Oracle SQL Developer, Eclipse, Vivado/Logisim, and Cisco Security.</p>
+        <p style={styleButn}>Hello everyone and welcome to my portfolio website! I'm skilled software and hardware engineer with a strong background in computer engineering. I graduated from Humber College's Computer Engineering Technology program in May 2023, where I gained expertise in various programming languages, tools, and operating systems!</p>
+        <p style={styleButn}>MI have created and published successful project on the Google Play Store which is template for Smart Lock Bike System. I also have experience with 3D modeling, which allows me to create realistic designs for multi sensors smart application. I have also worked with Raspberry Pi to create a smart system based on sensors, which has been a great way to integrate my programming skills with my interest in electronics.</p>
         <p style={styleButn}>Throughout my education and work experience, I have acquired skills in numerous programming languages, including JavaScript (ES5, ES6), HTML/CSS, Assembly/VHDL, and Python. I have worked with databases like MySQL, Firebase, and Oracle, and have experience in mobile development using Android Studio and JavaFX.</p>
     </section>}
     {
