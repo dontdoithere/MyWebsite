@@ -65,6 +65,7 @@
 
   .project-names{
     font-family: 'Mechanical';
+    margin-bottom: 30px;
   }
  
 
@@ -81,24 +82,23 @@
   
   #project-box-1 {
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 20px;
-    width: 45%;
     border-radius: 20px;
-    border-color: black;
-    box-shadow: 0px 0px 10px 2px rgba(0,0,0,1); 
+    padding: 20px;
+    width: 35%;
+    box-shadow: 0px 0px 15px 6px rgba(0,0,0,1); 
     justify-content: center;
     align-items: center;
     margin-bottom: 200px; 
     align-self: flex-start;
-
+    justify-content: center;  /* Aligns items on the horizontal line (in this case center) */
+  
   }
 
   #project-box-2 {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
-    width: 45%;
+    width: 35%;
     border-radius: 20px;
     border-color: black;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,1); 

@@ -36,7 +36,7 @@ const App: React.FC = () => {
       <div className="projects-container">
         <article id="project-box-1">
           <h3 className="project-names">Android Application</h3>
-          <img src="./pictures/first.png" alt="Project 1 Image" />
+          <img src="./pictures/homeScreen.png" className="project-pics" alt="Project 1 Image" />
           <hr className="separator-line" />
           <p>Description of Project #1 goes here. You can mention the details, technologies used, and any other relevant information.</p>
         </article>
