@@ -17,7 +17,7 @@
  
 
 
-  #header-name {
+  #header-name {  
     margin: 0;
     font-family: 'Monster';
     display: flex;
@@ -90,7 +90,9 @@
     align-items: center;
     margin-bottom: 200px; 
     align-self: flex-start;
-    justify-content: center;  /* Aligns items on the horizontal line (in this case center) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Aligns items on the horizontal line (in this case center) */
   
   }
 
@@ -105,6 +107,9 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .project-box h3 {
@@ -137,6 +142,37 @@
     background-image: linear-gradient(to right, rgba(221, 3, 3, 0), rgb(240, 6, 6), rgba(12, 208, 243, 0));
   }
 
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px;
+    font-size: 20px;
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #ff9900;
+    color: #fff;
+  }
+  
+  /* Special hover effect */
+  .button:hover:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background-color: rgba(255, 153, 0, 0.2);
+    border-radius: 8px;
+    z-index: -1;
+  }
 
   #resume{
     margin-top: 150px;

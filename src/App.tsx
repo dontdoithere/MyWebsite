@@ -38,14 +38,14 @@ const App: React.FC = () => {
           <h3 className="project-names">Android Application</h3>
           <img src="./pictures/homeScreen.png" className="project-pics" alt="Project 1 Image" />
           <hr className="separator-line" />
-          <p>Description of Project #1 goes here. You can mention the details, technologies used, and any other relevant information.</p>
-        </article>
+          <button className="button">Full Story</button>
+          </article>
           <article id="project-box-2">
             <h3 className="project-names">Arduino/Pi system</h3>
             <img src="./pictures/second-picture.png" alt="Project 2 Image" />
             <hr className="separator-line" />
-            <p>Description of Project #2 goes here. You can mention the details, technologies used, and any other relevant information.</p>
-          </article>
+            <button className="button">Full Story</button>
+                      </article>
       </div>
     </section>
     }
