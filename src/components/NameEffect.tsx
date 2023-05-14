@@ -5,7 +5,7 @@ interface TypewriterEffectProps {
   interval?: number;
 }
 
-const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, interval = 200 }) => {
+const TypewriterEffect: React.FC<TypewriterEffectProps> = ({ text, interval = 100 }) => {
   const [displayedText, setDisplayedText] = useState('');
   const indexRef = useRef(0);
 
