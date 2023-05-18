@@ -22,9 +22,16 @@ const App: React.FC = () => {
     marginTop: '1em',
     textAlign: 'center',
 };
+
+const scrollToDiv = (divId: string): void => {
+  const divElement = document.getElementById(divId);
+  if (divElement) {
+    divElement.scrollIntoView({behavior: "smooth"});
+  }
+}
   
   return (
-    <>
+    <>  
   
     {/* <NavBar /> */}  
     <div id="header-container">
@@ -32,6 +39,10 @@ const App: React.FC = () => {
             <NameEffect text=" Simon Diakonov" />
         </h1>
     </div>
+    <div className="scroll-button" onClick={() => scrollToDiv('body-div')}>
+        <i className="arrow down"></i>
+    </div>
+      
     <div id="body-div">
       {<section id="introduction">
       <div className="inner-content">
