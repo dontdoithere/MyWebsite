@@ -3,6 +3,7 @@ import { } from '@mui/material'
 //import { MenuIcon } from '@mui/icons-material';
 //import Button from '@material-ui/core/Button';
 import NameEffect from './components/NameEffect';
+import Projects from './components/projects/Projects'
 //import Background from './components/background/Background';
 //  import NavBar from './components/Nav/NavBar';
 import './index.css';
@@ -41,37 +42,7 @@ const App: React.FC = () => {
    </div>
     </section>}
     {
-
-
-      <section id="projects">
-      <h2 id="h-projects">My Projects</h2>
-      <div id="flex-container">
-        <article id="project-box-1">
-          <h3 className="project-names">Android Application</h3>
-          <img src="./pictures/homeScreen.png" className="project-pics" alt="Project 1 Image" />
-          <hr className="separator-line" />
-          <button className="button">Full Story</button>
-          
-          
-          </article>
-
-          <div id="square-container">
-            <div className="square"></div>
-            <div className="square"></div>
-            <div className="square"></div>
-        </div>
-        </div>
-    
-
-
-          <article id="project-box-2">
-            <h3 className="project-names">Arduino/Pi system</h3>
-            <img src="./pictures/second-picture.png" className="project-pics" alt="Project 2 Image" />
-            <hr className="separator-line" />
-            <button className="button">Full Story</button>
-            </article>
-
-    </section>
+     <Projects/>
     }
 
     <section id="resume">
