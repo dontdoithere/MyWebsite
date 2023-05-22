@@ -54,11 +54,13 @@ const scrollToDiv = (divId: string): void => {
               <div className="box-prof-card">
             <span className="underline">Professional Card</span>  
           </div>
-          <div className="App">
+          <div className="info">
             <InfoMe label="Name" value="Simon Diakonov" />
             <InfoMe label="Gender" value="Male" />
             <InfoMe label="Location" value="Toronto" />
             <InfoMe label="Rank" value="Computer Engineer" />
+            <InfoMe label="Biography" value="Simon Diakonov,  displayed a fascination with technology from a young age. Excelling in math and coding throughout high school and college, he pursued a degree in Computer Engineering. At college, Simon actively engaged in research and collaborations, honing his skills in software development. Joining a tech team and sucefully presented hardware and software project. He became known for his problem-solving prowess and innovative solutions. During studying was hired to work for “Web Technology” company on “Traffic Arbitrage and Software Developer” positions, where he got his first real-life experience." />
+
           </div>
         </div>
 
