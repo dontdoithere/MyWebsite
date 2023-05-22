@@ -8,6 +8,7 @@ import Projects from './components/projects/Projects'
 //  import NavBar from './components/Nav/NavBar';
 import InfoMe from './components/infome/InfoMe';
 import './index.css';
+import { Padding } from '@mui/icons-material';
 
 
 
@@ -45,6 +46,7 @@ const scrollToDiv = (divId: string): void => {
     </div>
       
     <div id="body-div">
+      <h1 className='welcome-h1'>Welcome[¡]</h1>
       {<section id="introduction">
         <div id="terminal">
           <div id="terminal-up-line">
@@ -54,14 +56,19 @@ const scrollToDiv = (divId: string): void => {
               <div className="box-prof-card">
             <span className="underline">Professional Card</span>  
           </div>
-          <div className="info">
+          <div id="info-pic-container" style={{ display: 'flex' }}>  
+           <div className="info">
             <InfoMe label="Name" value="Simon Diakonov" />
             <InfoMe label="Gender" value="Male" />
             <InfoMe label="Location" value="Toronto" />
             <InfoMe label="Rank" value="Computer Engineer" />
-            <InfoMe label="Biography" value="Simon Diakonov,  displayed a fascination with technology from a young age. Excelling in math and coding throughout high school and college, he pursued a degree in Computer Engineering. At college, Simon actively engaged in research and collaborations, honing his skills in software development. Joining a tech team and sucefully presented hardware and software project. He became known for his problem-solving prowess and innovative solutions. During studying was hired to work for “Web Technology” company on “Traffic Arbitrage and Software Developer” positions, where he got his first real-life experience." />
-
+            </div>
+            <div className="pic-terminal">
+            <img src="./pictures/Manager.png" alt="Image description" />
+            </div>
           </div>
+          <div style={{paddingTop: '10px', paddingBlockStart: '3%'}}/> 
+            <InfoMe label="Biography" value="Simon Diakonov,  displayed a fascination with technology from a young age. Excelling in math and coding throughout high school and college, he pursued a degree in Computer Engineering. At college, Simon actively engaged in research and collaborations, honing his skills in software development. Joining a tech team and sucefully presented hardware and software project. He became known for his problem-solving prowess and innovative solutions. During studying was hired to work for “Web Technology” company on “Traffic Arbitrage and Software Developer” positions, where he got his first real-life experience." />
         </div>
 
     </section>}
@@ -70,7 +77,7 @@ const scrollToDiv = (divId: string): void => {
     }
 
     <section id="resume">
-    <div className="resume-container">
+    <div className="resume-container">2
       <h2 id="resume-h2">MyResume</h2>
         <p id="resume-text">Here i highlighet all my skills and important knowledge about Software i know</p>
         <iframe id="resume-pdf" src='./pictures/Diakonov_Resume-1.pdf' width="600px" height="750px"></iframe>

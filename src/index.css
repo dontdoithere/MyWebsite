@@ -77,9 +77,9 @@
 
 
   #body-div{
-    margin: 5% 8%;
-    padding: 5% 0  ;
-    background-color: #000080;
+    margin: 3% 8%;
+    padding: 3% 0  ;
+    background-color: #191970;
     border-radius: 30px;
     margin-top: 100%;
   }
@@ -93,7 +93,12 @@
    
   }
   
-
+ .welcome-h1{
+  color: #fff;
+  text-align: center;
+  font-size: 84px;
+  padding-bottom: 190px;
+ }
 
   #introduction {
     color: rgb(248,248,242);
@@ -103,11 +108,11 @@
     font-family: 'Darumadrop One', cursive;
     background-color: #556B2F;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 0px 0px 10px 2px rgb(247, 245, 245); 
+    box-shadow: 0px 0px 6px 10px #757775; 
     border: 2px solid transparent;  
     background-clip: content-box;
-    max-width: 45%;
-    max-height: 6 5%;
+    max-width: 56%;
+    max-height: 65%;
   }
 
   
@@ -138,7 +143,19 @@
     margin-top: 2px;
     margin-bottom: 20px;
 } 
+.info-pic-container{
+  padding-bottom: 20px;
+}
 
+.info{
+  padding-left: 3%;
+  width: 50%;
+}
+
+.pic-terminal{
+  width: 50%;
+  padding-left: 10%;
+}
   
 
   #resume{
