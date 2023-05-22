@@ -1,0 +1,29 @@
+.info-item {
+    margin-left:2%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+  }
+  
+  .info-value.underline::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 5px;
+    background: limegreen;
+    margin-top: 5px;
+  }
+
+  .info-label {
+    font-weight: bold;
+    padding-right: 10px; /* Add right padding to the label */
+  }
+  
+  .info-value {
+    padding-left: 10px; /* Add left padding to the value */
+  }
+  
