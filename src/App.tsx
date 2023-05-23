@@ -15,15 +15,7 @@ import { Padding } from '@mui/icons-material';
 
 
 const App: React.FC = () => {
-  const styleButn = {
-    marginBottom: '2em',
-  };
-
-  const styleButnHead: React.CSSProperties = {
-    marginBottom: '2em',
-    marginTop: '1em',
-    textAlign: 'center',
-};
+    
 
 const scrollToDiv = (divId: string): void => {
   const divElement = document.getElementById(divId);

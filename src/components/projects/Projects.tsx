@@ -27,7 +27,6 @@
                   <div id={styles['flex-project-box2']}>
                    <article id={styles['project-box-2']}>
                      <h3 className={styles['project-names']}>Arduino/Pi system</h3>
-                     <img src="./pictures/second-picture.png" className={styles['project-pics']} alt="Project 2 Image" />
                      <hr className={styles['separator-line']} />
                      <button className={styles.button}>Full Story</button>
                      </article>
