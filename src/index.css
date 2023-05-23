@@ -79,7 +79,7 @@
   #body-div{
     margin: 3% 8%;
     padding: 3% 0  ;
-    background: linear-gradient(to right, #757775,#536878);
+    background: linear-gradient(40deg, #757775,#536878);
     border-radius: 30px;
     margin-top: 100%;
     box-shadow: 0px 0px 15px 16px #fcfcfc; 
